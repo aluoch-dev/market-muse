@@ -1,5 +1,5 @@
 <template>
-    <div class="topbar">
+    <div class="apptopbar">
       <!-- Left section: Company Name -->
       <div class="left">
         <span class="company-name">Market Muse</span>
@@ -16,7 +16,7 @@
   
 <script>
     export default {
-        name: "Topbar"
+        name: "AppTopbar"
     };
 </script>
   
@@ -28,8 +28,8 @@
     font-family: Arial, sans-serif;
   }
   
-  /* Topbar styling */
-  .topbar {
+  /* AppTopbar styling */
+  .apptopbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@
   
   /* Responsive Design: Stack buttons on smaller screens */
   @media (max-width: 768px) {
-    .topbar {
+    .apptopbar {
       flex-direction: column;
       align-items: flex-start;
     }
