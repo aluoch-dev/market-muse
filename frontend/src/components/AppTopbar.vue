@@ -56,7 +56,7 @@
   
   /* Buttons styling */
   .nav-button {
-    border: 2px solid #000; /* Black outline */
+    border: 1px solid #000; /* Black outline */
     border-radius: 20px;
     padding: 5px 15px;
     font-size: 16px;
